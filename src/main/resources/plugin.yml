@@ -1,7 +1,14 @@
-name: CommandLogger
-version: 1.0
-main: com.brumisharuma.clashsmp.CommandLogger
+name: PencilCraft
+version: beta-0.2
+main: com.brumisharuma.pencilcraft.PencilCraft
+
+depend:
+  - ProtocolLib
 
 commands:
-  clreload:
-    description: Reloads CommandLogger config
+  pencil:
+    description: Gives you the pencil item.
+    usage: /pencil
+  undo:
+    description: Undoes the last 60 seconds of action performed with the pencil.
+    usage: /undo
