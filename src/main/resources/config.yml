@@ -1,0 +1,58 @@
+webhooks:
+  admin: "https://discord.com/api/webhooks/ADMIN"
+  player: "https://discord.com/api/webhooks/PLAYER"
+  other: "https://discord.com/api/webhooks/OTHER"
+  fallback: "https://discord.com/api/webhooks/FALLBACK"
+
+commands:
+  admin:
+    - ban
+    - kick
+    - op
+    - mute
+    - ipban
+    - ipmute
+    - tempban
+    - tempbanip
+    - tempmute
+    - warn
+    - invsee
+    - give
+    - gamemode
+    - gmc
+    - gm
+    - lp
+    - bc
+    - tp
+    - kill
+    - god
+    - stop
+    - restart
+    - jail
+    - socialspy
+
+  player:
+    - home
+    - sethome
+    - delhome
+    - warp
+    - tpa
+    - tpaccept
+    - tpdeny
+    - tpcancel
+    - msg
+    - r
+    - w
+    - say
+    - rtp
+    - afk
+    - bal
+    - money
+    - baltop
+    - pay
+    - playtime
+    - spawn
+    - suicide
+
+  other:
+    - reload
