@@ -1,0 +1,8 @@
+# Player ranks/tags configuration
+# These tags will be displayed in command logs
+# Format: 
+# playername: TAG
+
+playername: "[OWNER]"
+player2: "VIP+"
+player3: "!OMEGA++"

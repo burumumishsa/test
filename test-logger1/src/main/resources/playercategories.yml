@@ -1,0 +1,8 @@
+# Player-specific webhook categories
+# All commands from these players will be sent to the specified webhook
+# Format: playername: webhook_type (admin, player, other, or fallback)
+
+# Examples:
+# playername: admin
+# player2: player
+# player3: other
